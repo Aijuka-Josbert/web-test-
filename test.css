@@ -1,11 +1,36 @@
-*{
-    padding: o;
-    height: o;
+.nav{
+    display: flex;
+    justify-content: space-between;
+
 }
 .navbar{
     display: flex;
+    width: 20%;
+    justify-content: space-between;
+}
+.hometab{
+    display:inline-flex;
     align-items: center;
     justify-content: space-between;
-    background-color:aliceblue;
-     border-radius:10px;
+    padding: 15px;
+    width: 20%;
+}
+.img-icons{
+display:flex;
+justify-content: space-between;
+align-items:left;
+width:20%;
+}
+div ul{
+    display: flex;
+    justify-content: space-between;
+}
+div ul li{
+    justify-content: space-evenly;
+}
+.sidenavbar{
+    
+}
+.maindiv{
+    display: flex;
 }
