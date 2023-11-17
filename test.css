@@ -6,7 +6,7 @@
 .navbar{
     display: flex;
     width: 20%;
-    justify-content: space-between;
+    padding: 10px;
 }
 .hometab{
     display:inline-flex;
@@ -21,16 +21,19 @@ justify-content: space-between;
 align-items:left;
 width:20%;
 }
-div ul{
+.div ul{
     display: flex;
     justify-content: space-between;
 }
-div ul li{
+.div ul li{
     justify-content: space-evenly;
 }
-.sidenavbar{
-    
-}
+
 .maindiv{
     display: flex;
+}
+.card{ 
+    justify-content: flex-end;
+    margin-right: 30px;    
+ 
 }
