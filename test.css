@@ -1,4 +1,4 @@
-.nav{
+ .nav{
     display: flex;
     justify-content: space-between;
 
@@ -43,4 +43,11 @@ width: 10%;
     display: flex;
    margin: 10px;
    padding-left: 10px;
+}
+.see, .h4{
+    justify-content: space-between;
+    
+}
+.fa-magnifying-glass{
+    z-index: 2px;
 }
